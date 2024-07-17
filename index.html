@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="TechLand" content="Wedding website for Adrian and Bernice" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Wedding website" />
+		<title>Adrian and Bernice wedding website</title>
+		<!-- <link rel="icon" href="html5.png" type="image/x-icon" /> -->
+		<!-- font-awesome -->
+
+		<link rel="stylesheet" href="index-styles.css" type="text/css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		/>
+		<script
+			async
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEVgQ_lBtwLZQppnqfUsVxO3WVVRJy0Tg&callback=console.debug&libraries=maps,marker&v=beta"
+		></script>
+	</head>
+	<body>
+		<header id="home">
+			<!--navbar-->
+			<nav id="nav">
+				<div class="links-container">
+					<ul class="links">
+						<li>
+							<a href="#home" class="scroll-link active">Home</a>
+						</li>
+						<li>
+							<a href="./pages/about-us.html" class="scroll-link">Our story</a>
+						</li>
+						<li>
+							<a href="./pages/wedding-party.html" class="scroll-link"
+								>Wedding Party</a
+							>
+						</li>
+						<li>
+							<a href="./pages/message.html" class="scroll-link">Messages</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!--banner-->
+			<section id="banner">
+				<img
+					class="banner-img"
+					src="./assets/couple/couple_4.jpg"
+					alt="two rings laying on a rock"
+				/>
+			</section>
+		</header>
+		<section id="details">
+			<p class="title-text">The matrimony of</p>
+			<div class="names">
+				<p>Adrian</p>
+				<p>& Bernice</p>
+			</div>
+			<div class="wedding-summary">
+				<p>10 August 2024</p>
+				<p><a href="https://www.patmoscentre.org/">Patmos retreat centre</a></p>
+				<p>Akropong Akuapem, Ghana</p>
+			</div>
+		</section>
+		<section id="counter">
+			<p id="day-count"></p>
+			<div id="map">
+				<gmp-map
+					center="5.946063995361328,-0.09924069792032242"
+					zoom="14"
+					map-id="DEMO_MAP_ID"
+				>
+					<gmp-advanced-marker
+						position="5.946063995361328,-0.09924069792032242"
+						title="My location"
+					></gmp-advanced-marker>
+				</gmp-map>
+			</div>
+		</section>
+
+		<footer class="section">
+			<p>
+				Copyright &copy; by
+				<a href="https://www.linkedin.com/in/tshepiso-lehutjo/"
+					>TechLand group</a
+				>
+				<span id="current_date"></span>. All rights reserved
+			</p>
+		</footer>
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+			defer
+		></script>
+		<script src="app.js"></script>
+	</body>
+</html>

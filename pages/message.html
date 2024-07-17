@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="TechLand" content="Wedding website for Adrian and Bernice" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Wedding website" />
+		<title>Adrian and Bernice wedding website</title>
+		<!-- <link rel="icon" href="html5.png" type="image/x-icon" /> -->
+		<!-- font-awesome -->
+
+		<link rel="stylesheet" href="../message-styles.css" type="text/css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		/>
+		<script
+			async
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEVgQ_lBtwLZQppnqfUsVxO3WVVRJy0Tg&callback=console.debug&libraries=maps,marker&v=beta"
+		></script>
+	</head>
+	<body>
+		<header id="home">
+			<!--navbar-->
+			<nav id="nav">
+				<div class="links-container">
+					<ul class="links">
+						<li>
+							<a href="../index.html" class="scroll-link ">Home</a>
+						</li>
+						<li>
+							<a href="./about-us.html" class="scroll-link">Our story</a>
+						</li>
+						<li>
+							<a href="./wedding-party.html" class="scroll-link"
+								>Wedding Party</a
+							>
+						</li>
+						<li>
+							<a href="./message.html" class="scroll-link active">Messages</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<article class="send-mesage">
+				<h2 class="message-CTA">we would love to hear from you.</h2>
+			
+			</article>
+			   
+				<div class="form_container question">
+			<form method="POST" id="form">
+
+    <input type="hidden" name="access_key" value="9dea28fd-65a4-4b90-9faa-c7f3f3d213cd">
+<div class="form_box ">
+	<label for="name">Name</label>
+	<input type="text" name="name" required></div>
+    <div class="form_box"><label for="message">Your message</label><textarea  name="message" required></textarea></div>
+    <div class="h-captcha" data-captcha="true"></div>
+    <button type="submit" class="btn">Submit Form</button>
+    <div id="result"></div>
+</form>
+</div>
+<div class="message-container">
+  <ul id="messages">
+    <li class="message" id="message1">
+      <div class="message-content">
+        <h2 class="author"> From Tshepiso & Selorm</h2>
+		<p class="message-sent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget risus et ipsum sollicitudin convallis sed ac mauris. Fusce ut mi facilisis, aliquam lacus vitae, finibus justo. In et lorem iaculis, dictum tortor vel, ullamcorper neque. Sed condimentum enim massa, ut mattis felis volutpat in.</p>
+      </div>
+    </li>
+    <li class="message" id="message2">
+      <div class="message-content">
+        <h2 class="author"> From Tshepiso & Selorm</h2>
+		<p class="message-sent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget risus et ipsum sollicitudin convallis sed ac mauris. Fusce ut mi facilisis, aliquam lacus vitae, finibus justo. In et lorem iaculis, dictum tortor vel, ullamcorper neque. Sed condimentum enim massa, ut mattis felis volutpat in.</p>
+      </div>
+    </li>
+    <li class="message" id="message3">
+      <div class="message-content">
+       <h2 class="author"> From Tshepiso & Selorm</h2>
+		<p class="message-sent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget risus et ipsum sollicitudin convallis sed ac mauris. Fusce ut mi facilisis, aliquam lacus vitae, finibus justo. In et lorem iaculis, dictum tortor vel, ullamcorper neque. Sed condimentum enim massa, ut mattis felis volutpat in.</p>
+      </div>
+    </li>
+    <li class="message" id="message4">
+      <div class="message-content">
+    <h2 class="author"> From Tshepiso & Selorm</h2>
+		<p class="message-sent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget risus et ipsum sollicitudin convallis sed ac mauris. Fusce ut mi facilisis, aliquam lacus vitae, finibus justo. In et lorem iaculis, dictum tortor vel, ullamcorper neque. Sed condimentum enim massa, ut mattis felis volutpat in.</p>
+      </div>
+    </li>
+    <li class="message" id="message5">
+      <div class="message-content">
+        <h2 class="author"> From Tshepiso & Selorm</h2>
+		<p class="message-sent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget risus et ipsum sollicitudin convallis sed ac mauris. Fusce ut mi facilisis, aliquam lacus vitae, finibus justo. In et lorem iaculis, dictum tortor vel, ullamcorper neque. Sed condimentum enim massa, ut mattis felis volutpat in.</p>
+      </div>
+    </li>
+  </ul>
+  </div>
+  
+<script type="module" src="../messages.js"></script>
+	</body>
+</html>
