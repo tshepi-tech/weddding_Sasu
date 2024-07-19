@@ -87,6 +87,7 @@ li a {
 	padding: 0.875rem 1rem;
 	color: var(--clr-black);
 	text-decoration: none;
+	font-size: 12px;
 }
 
 .active {
@@ -213,12 +214,6 @@ wedding party page
 	background-color: #8d99ae;
 }
 
-/* #brides_maids,
-#grooms_man {
-	display: grid;
-	place-items: center;
-	
-} */
 #brides_maids_WP,
 #groomsman_WP {
 	max-width: 80%;
@@ -252,7 +247,13 @@ figure {
 	transition: var(--transition);
 	cursor: pointer;
 }
-#BM_name {
-	padding-top: 0.5rem;
+#BM_name,
+#GM_name {
+	padding: 0.5rem 0;
 	color: var(--clr-dark);
+	font-family: var(--ff-secondary);
+}
+
+.bridesmaid-item img {
+	height: 3rem;
 }

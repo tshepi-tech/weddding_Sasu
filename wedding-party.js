@@ -2,6 +2,11 @@
 //don't forget the jpg
 const bridesMaids = [
 	{
+		id: 7,
+		name: "Jewel Afua Obuo Precious-Maid of Honor",
+		img: "../assets/bridesmaids/BM_8.jpg",
+	},
+	{
 		id: 0,
 		name: "Eunice Agyeiwaa",
 		img: "../assets/bridesmaids/BM_1.jpg",
@@ -30,11 +35,6 @@ const bridesMaids = [
 		id: 5,
 		name: "Abigail David Lartey",
 		img: "../assets/bridesmaids/BM_6.jpg",
-	},
-	{
-		id: 7,
-		name: "Jewel Afua Obuo Precious",
-		img: "../assets/bridesmaids/BM_8.jpg",
 	},
 	{
 		id: 8,
@@ -92,6 +92,11 @@ prevBtn.addEventListener("click", function () {
 //groomsman
 const groomsMan = [
 	{
+		id: 5,
+		name: "Brian Atuobi-Yiadom Sasu - Best man",
+		img: "../assets/groomsman/GM_6.jpg",
+	},
+	{
 		id: 0,
 		name: "Prince Ampong",
 		img: "../assets/groomsman/GM_1.jpg",
@@ -115,11 +120,6 @@ const groomsMan = [
 		id: 4,
 		name: "Prince Boateng",
 		img: "../assets/groomsman/GM_5.jpg",
-	},
-	{
-		id: 5,
-		name: "Brian Atuobi-Yiadom Sasu",
-		img: "../assets/groomsman/GM_6.jpg",
 	},
 	{
 		id: 6,
