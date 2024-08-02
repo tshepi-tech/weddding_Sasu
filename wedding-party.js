@@ -136,11 +136,6 @@ const groomsMan = [
 		name: "Emmanuel Oppong",
 		img: "../assets/groomsman/GM_9.jpg",
 	},
-	{
-		id: 9,
-		name: "S.K Frimpong",
-		img: "../assets/groomsman/GM_10.jpg",
-	},
 ];
 
 const image_GM = document.getElementById("groomsman_WP");
