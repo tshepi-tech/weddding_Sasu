@@ -166,8 +166,9 @@ button[type="submit"] {
 }
 .message-CTA {
 	font-family: var(--ff-decorative);
+	font-size: 3rem;
 	text-align: center;
-	font-size: 1.5rem;
+	color: #cba135;
 }
 .btn {
 	text-transform: uppercase;
