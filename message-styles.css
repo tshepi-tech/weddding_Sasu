@@ -87,6 +87,18 @@ li a {
 #message7 {
 	--index: 7;
 }
+#message8 {
+	--index: 8;
+}
+#message9 {
+	--index: 9;
+}
+#message10 {
+	--index: 10;
+}
+#message11 {
+	--index: 11;
+}
 
 .message {
 	/*background-color: #D4AFB9;*/
@@ -118,6 +130,11 @@ li a {
 .message-sent {
 	font-family: var(--ff-primary);
 
+	color: #1d201f;
+}
+.message-sent-1 {
+	font-family: var(--ff-primary);
+	font-size: small;
 	color: #1d201f;
 }
 form {
