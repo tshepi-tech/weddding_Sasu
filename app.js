@@ -10,10 +10,6 @@ var time = setInterval(function () {
 		days + " days to our wedding";
 
 	if ((days = -1)) {
-		document.getElementById("day-count").innerHTML =
-			" Today is our wedding day!";
-	}
-	if (days < -2) {
 		document.getElementById("day-count").innerHTML = " We are married!";
 	}
 }, 1000);
